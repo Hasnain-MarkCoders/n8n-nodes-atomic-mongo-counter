@@ -1,0 +1,31 @@
+{
+  "name": "n8n-nodes-atomic-mongo-counter",
+  "version": "1.0.2",
+  "description": "n8n community node for atomic incremental MongoDB counters",
+  "license": "MIT",
+  "author": "Hasnain Raza",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "mongodb",
+    "atomic-counter",
+    "increment"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hasnain-MarkCoders/n8n-nodes-atomic-mongo-counter.git"
+  },
+  "homepage": "https://github.com/Hasnain-MarkCoders/n8n-nodes-atomic-mongo-counter#readme",
+  "bugs": {
+    "url": "https://github.com/Hasnain-MarkCoders/n8n-nodes-atomic-mongo-counter/issues"
+  },
+  "dependencies": {
+    "mongodb": "^6.20.0"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "nodes/AtomicMongoCounter/AtomicMongoCounter.node.js"
+    ]
+  }
+}
