@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hasnain-MarkCoders/n8n-nodes-atomic-mongo-counter.git"
+    "url": "git+https://github.com/Hasnain-MarkCoders/n8n-nodes-atomic-mongo-counter.git"
   },
   "homepage": "https://github.com/Hasnain-MarkCoders/n8n-nodes-atomic-mongo-counter#readme",
   "bugs": {
